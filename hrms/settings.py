@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-jom=3oum8^gkh%go_!w6lzn$k7=h6n@p2xdw3kuxw4-9xn7voe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "hrms-lite-eo0p.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
